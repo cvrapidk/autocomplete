@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="da">
+	<head>
+		<title>Autocomplete</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+		<style type="text/css">
+		.tt-menu.tt-open {
+			position: absolute !important;
+			top: inherit !important;
+			left: inherit !important;
+		}
+		.tt-selectable
+		{
+			cursor: pointer;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>Autcomplete</h1>
+					<p>
+						<input name="life_name" class="form-control form-control-lg search-button-frontpage" type="text" placeholder="Skriv cvr-nummer eller p-nummer eller firmanavn" autocomplete="off" spellcheck="false" autofocus>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="index.js"></script>
+		<script src="typeahead.bundle.js"></script>
+	</body>
+</html>
